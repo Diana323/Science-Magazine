@@ -24,24 +24,26 @@
 </head>
 <body>
     <header class="header">
-        
-      <a class="header_input ul" href="./input.html">Вход</a>
+     
+    </header>
+    <main>
+      <section class="section_main">
+        <div class="section_main_input"><button data-modal-open type="" class="input_button">
+         <a class="header_input ul" href="./input.html">Вход</a></button>
       <svg class="icon_svg_ua" width="20" height="14">
         <use href="./img/icons.svg#icon-Flag_of_Ukraine"></use>
         </svg>
-    
-    </header>
-    <main>
+        </div>
          <div class="header_menu">
         <ul class="list ul">
-           <li class="list_item"><div class="dropdown"><button class="menu_btn">Главная</button>
+           <li class="list_item"><div class="dropdown"><button class="menu_btn"><a class="btn_link" href="index.html" rel="">Главная</a></button>
         <div class="dropdown_content">
         </div></div></li>
-           <li class="list_item"><div class="dropdown"><button class="menu_btn">Новости</button><div class="dropdown_content">
+           <li class="list_item"><div class="dropdown"><button class="menu_btn"><a class="btn_link" href="news.html" rel="">Новости</a></button><div class="dropdown_content">
            </div></div></li>
-           <li class="list_item"><div class="dropdown"><button class="menu_btn">Архивы</button><div class="dropdown_content">
+           <li class="list_item"><div class="dropdown"><button class="menu_btn"><a class="btn_link" href="" rel="">Архивы</a></button><div class="dropdown_content">
            </div></div></li>
-           <li class="list_item"><div class="dropdown"><button class="menu_btn">Авторам</button><div class="dropdown_content">
+           <li class="list_item"><div class="dropdown"><button class="menu_btn"><a class="btn_link" href="" rel="">Авторам</a></button><div class="dropdown_content">
             <a class="dropdown_link" href="">Рецензирование</a>
             <a class="dropdown_link" href="">Правила оформления статей</a>
             <a class="dropdown_link" href="">Лицензионный договор</a>
@@ -49,16 +51,16 @@
             <a class="dropdown_link" href="">Подача статьи для опубликования</a>
            </div></li>
            <li class="list_item">
-            <div><a href="" class="logo_icon_link">
+            <div><a href="index.html" class="logo_icon_link">
                     <svg class="icon_svg" width="100" height="100">
                       <use href="./img/icons.svg#iconL"></use>
                     </svg>
                   </a>
                 </div>
                 </li>
-           <li class="list_item"><div class="dropdown"><button class="menu_btn">Редколлегия</button><div class="dropdown_content">
+           <li class="list_item"><div class="dropdown"><button class="menu_btn"><a class="btn_link" href="" rel="">Редколлегия</a></button><div class="dropdown_content">
            </div></div></li>
-           <li class="list_item"><div class="dropdown"><button class="menu_btn">О журнале</button><div class="dropdown_content">
+           <li class="list_item"><div class="dropdown"><button class="menu_btn"><a class="btn_link" href="" rel="">О журнале</a></button><div class="dropdown_content">
             <a class="dropdown_link" href="">Галлерея</a>
             <a class="dropdown_link" href="">Индексирование</a>
             <a class="dropdown_link" href="">Партнеры</a>
@@ -67,12 +69,13 @@
             <a class="dropdown_link" href="">Политика открытого доступа</a>
             <a class="dropdown_link" href="">Статистика</a>
            </div></div></li> 
-           <li class="list_item"><div class="dropdown"><button class="menu_btn">Поиск</button><div class="dropdown_content">
+           <li class="list_item"><div class="dropdown"><button class="menu_btn"><a class="btn_link" href="index.html" rel="">Поиск</a></button><div class="dropdown_content">
            </div></div></li>
-           <li class="list_item"><div class="dropdown"><button class="menu_btn">Контакты</button><div class="dropdown_content">
+           <li class="list_item"><div class="dropdown"><button class="menu_btn"><a class="btn_link" href="index.html" rel="">Контакты</a></button><div class="dropdown_content">
            </div></div></li>    
         </ul>
        </div> 
+       <div class="title_hero_slide">
         <h1 class="title_hero">Lorem ipsum</h1>
         <p class="content_title_hero">Lorem ipsum dolor,
              sit amet consectetur adipisicing elit. Saepe
@@ -83,6 +86,23 @@
              aliquam nemo voluptatem saepe dolorem explicabo 
              quia provident,
               molestiae, labore cumque est. Odio.</p>
+              <button class="button_left">
+                <svg class="svg"  width="20" height="20">
+                <use href="/img/icons.svg#icon-Vectorleft">
+              </use></svg>
+            </button>
+              <button class="button_right">
+                <svg class="svg"  width="20" height="20">
+                <use href="/img/icons.svg#icon-Vectorright">
+              </use></svg>
+            </button>
+              <div class="div_menu_slider">
+                <div class="div_menu_slider_list"></div>
+                <div class="div_menu_slider_list2"></div>
+                <div class="div_menu_slider_list2"></div>
+              </div>
+              </div>
+              </section>
               <section>
                 <h2 class="title">О журнале</h2>
                 <p class="content">Lorem ipsum dolor sit amet, 
@@ -104,19 +124,19 @@
               <section class="section_new">
                 <h2 class="title">Новости</h2>
                 <ul class="ul item_new" >
-                    <li class="new"><img src="./img/img1S.jpg" alt=""><h3 class="title_new">Заголовок</h3><p class="text_title_new">
+                    <li class="new g"><div class="new_images"><img src="./img/img1S.jpg" alt=""><h3 class="title_new">Заголовок</h3><p class="text_title_new">
                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae 
-                       neque et magna congue mattis ut sit amet erat.</p></li>
-                         <li class="new"><img src="./img/img2S.jpg" alt=""><h3 class="title_new">Заголовок</h3><p class="text_title_new">Lorem ips
+                       neque et magna congue mattis ut sit amet erat.</p></div></li>
+                         <li class="new"><div class="new_images"><img src="./img/img2S.jpg" alt=""><h3 class="title_new">Заголовок</h3><p class="text_title_new">Lorem ips
                         um dolor sit, amet consectetur adipisicing elit.
-                          maxime, enim ape Repellat enim accusamus suscipit.</p></li>
-                         <li class="new"><img src="./img/img3S.jpg" alt=""><h3 class="title_new">Заголовок</h3><p class="text_title_new">Lorem ips
+                          maxime, enim ape Repellat enim accusamus suscipit.</p></div></li>
+                         <li class="new"><div class="new_images"><img src="./img/img3S.jpg" alt=""><h3 class="title_new">Заголовок</h3><p class="text_title_new">Lorem ips
                         um dolor in quis et voluptas voluptate placeat minus quod.
-                         Repellat enim accusamus suscipit.</p></li>
-                         <li class="new"><img src="./img/img4S.jpg" alt=""><h3 class="title_new">Заголовок</h3><p class="text_title_new">Lorem ips
+                         Repellat enim accusamus suscipit.</p></div></li>
+                         <li class="new"><div class="new_images"><img src="./img/img4S.jpg" alt=""><h3 class="title_new">Заголовок</h3><p class="text_title_new">Lorem ips
                         um dolor sit, amet consectetur adipisicing elit.
                           maxime, enim aperiam possimus. Dolore assumenda 
-                          inscipit.</p></li>
+                          inscipit.</p></div></li>
                 </ul>
               </section>
               <section>
@@ -151,8 +171,8 @@
                 </div>
                 <div class="footer_box">
                    <ul class="footer_menu ul">
-                    <li class="footer_menu_list"><a class="footer_list_link" href="" rel="">Главная</a></li>
-                    <li class="footer_menu_list"><a class="footer_list_link" href="" rel="">Новости</a></li>
+                    <li class="footer_menu_list"><a class="footer_list_link" href="index.html" rel="">Главная</a></li>
+                    <li class="footer_menu_list"><a class="footer_list_link" href="news.html" rel="">Новости</a></li>
                     <li class="footer_menu_list"><a class="footer_list_link" href="" rel="">Архивы</a></li>
                     <li class="footer_menu_list"><a class="footer_list_link" href="" rel="">Авторам</a></li>
                    </ul>
@@ -191,5 +211,42 @@
                 </div>
     </div>
     </footer>
+<div>
+        <div class="backdrop is-hidden" data-modal>
+      <div class="modal modal_window">
+        <button type="" class="button_modal" data-modal-close>x</button>
+        <h3 class="modal_title">Вход</h3>
+        <p class="modal_text">Введите свой логин и пароль</p>
+        <form class="form_modal">
+          <div class="input">
+          <!-- <label class=""></label> -->
+            <!-- <div class=""> -->
+            <input
+              type="tel email"
+              class="form"
+              name="user-name"
+              placeholder="Логин"
+              required="">
+          <!-- </div> -->
+          </div>
+
+            <div class="input">
+          <!-- <label class=""></label> -->
+            <!-- <div class=""> -->
+            <input
+              type="password"
+              class="form"
+              name="password"
+              placeholder="Пароль"
+              required="">
+          <!-- </div> -->
+          </div>
+    <p class="forgot-password">Забыли пароль?</p>
+    <button class="entrance"><a class="entrance_link" href="#index.html ">Войти</a></button>
+     <button class="Create_account" type="button"><a class="create_link" href="#openModal">Создать аккаунт</a>
+</button>
+</div>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
