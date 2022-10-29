@@ -24,57 +24,52 @@
 </head>
 <body>
     <header class="header">
-     
-    </header>
-    <main>
+      
       <section class="section_main">
-        <div class="section_main_input"><button data-modal-open type="" class="input_button">
-         <a class="header_input ul" href="./input.html">Вход</a></button>
+        <div class="section_main_input"><button id="myBtn" data-modal-open type="button" class="input_button">
+         <a class="header_input ul" href="">Вход</a></button>
+         <button id="myBtn">open</button>
       <svg class="icon_svg_ua" width="20" height="14">
         <use href="./img/icons.svg#icon-Flag_of_Ukraine"></use>
         </svg>
         </div>
          <div class="header_menu">
-        <ul class="list ul">
-           <li class="list_item"><div class="dropdown"><button class="menu_btn"><a class="btn_link" href="index.html" rel="">Главная</a></button>
-        <div class="dropdown_content">
-        </div></div></li>
-           <li class="list_item"><div class="dropdown"><button class="menu_btn"><a class="btn_link" href="news.html" rel="">Новости</a></button><div class="dropdown_content">
-           </div></div></li>
-           <li class="list_item"><div class="dropdown"><button class="menu_btn"><a class="btn_link" href="" rel="">Архивы</a></button><div class="dropdown_content">
-           </div></div></li>
-           <li class="list_item"><div class="dropdown"><button class="menu_btn"><a class="btn_link" href="" rel="">Авторам</a></button><div class="dropdown_content">
-            <a class="dropdown_link" href="">Рецензирование</a>
-            <a class="dropdown_link" href="">Правила оформления статей</a>
-            <a class="dropdown_link" href="">Лицензионный договор</a>
-            <a class="dropdown_link" href="">Условия публикации</a>
-            <a class="dropdown_link" href="">Подача статьи для опубликования</a>
-           </div></li>
+        <ul class="topmenu ul">
+           <li class="list_item"><a class="menu_link" href="index.html" rel="">Главная</a></li>
+           <li class="list_item"><a class="menu_link" href="news.html" rel="">Новости</a></button><div class="dropdown_content"></li>
+           <li class="list_item"><a class="menu_link" href="archives.html" rel="">Архивы</a></li>
+           <li class="list_item_menu"><a class="menu_link" href="" rel="">Авторам</a>
+            <ul class="submenu">
+              <li><a class="dropdown_link" href="">Рецензирование</a></li>
+              <li><a class="dropdown_link" href="">Правила оформления статей</a></li>
+              <li><a class="dropdown_link" href="">Лицензионный договор</a></li>
+              <li><a class="dropdown_link" href="">Условия публикации</a></li>
+              <li><a class="dropdown_link" href="">Подача статьи для опубликования</a></li>
+            </ul>
+           </li>
            <li class="list_item">
-            <div><a href="index.html" class="logo_icon_link">
+            <a href="index.html" class="logo_icon_link">
                     <svg class="icon_svg" width="100" height="100">
                       <use href="./img/icons.svg#iconL"></use>
                     </svg>
                   </a>
-                </div>
                 </li>
-           <li class="list_item"><div class="dropdown"><button class="menu_btn"><a class="btn_link" href="" rel="">Редколлегия</a></button><div class="dropdown_content">
-           </div></div></li>
-           <li class="list_item"><div class="dropdown"><button class="menu_btn"><a class="btn_link" href="" rel="">О журнале</a></button><div class="dropdown_content">
-            <a class="dropdown_link" href="">Галлерея</a>
-            <a class="dropdown_link" href="">Индексирование</a>
-            <a class="dropdown_link" href="">Партнеры</a>
-            <a class="dropdown_link" href="">Общая информация</a>
-            <a class="dropdown_link" href="">Этика публикации</a>
-            <a class="dropdown_link" href="">Политика открытого доступа</a>
-            <a class="dropdown_link" href="">Статистика</a>
-           </div></div></li> 
-           <li class="list_item"><div class="dropdown"><button class="menu_btn"><a class="btn_link" href="index.html" rel="">Поиск</a></button><div class="dropdown_content">
-           </div></div></li>
-           <li class="list_item"><div class="dropdown"><button class="menu_btn"><a class="btn_link" href="index.html" rel="">Контакты</a></button><div class="dropdown_content">
-           </div></div></li>    
+                <li class="list_item"><a class="menu_link" href="" rel="">Редколлегия</a></li>
+           <li class="list_item_menu"><a class="menu_link" href="" rel="">О журнале</a>
+            <ul class="submenu">
+            <li><a class="dropdown_link" href="">Индексирование</a></li>
+            <li><a class="dropdown_link" href="">Партнеры</a></li>
+            <li><a class="dropdown_link" href="">Общая информация</a></li>
+            <li><a class="dropdown_link" href="">Этика публикации</a></li>
+            <li><a class="dropdown_link" href="">Политика открытого доступа</a></li>
+            <li><a class="dropdown_link" href="">Статистика</a></li>
+            </ul>
+           </li> 
+           <li class="list_item"><a class="menu_link" href="index.html" rel="">Поиск</a></li>
+           <li class="list_item"><a class="menu_link" href="index.html" rel="">Контакты</a></li>    
         </ul>
        </div> 
+       
        <div class="title_hero_slide">
         <h1 class="title_hero">Lorem ipsum</h1>
         <p class="content_title_hero">Lorem ipsum dolor,
@@ -103,6 +98,9 @@
               </div>
               </div>
               </section>
+   
+    </header>
+      <main>
               <section>
                 <h2 class="title">О журнале</h2>
                 <p class="content">Lorem ipsum dolor sit amet, 
@@ -212,14 +210,14 @@
     </div>
     </footer>
 <div>
-        <div class="backdrop is-hidden" data-modal>
+        <div  id="myModal" class="backdrop is-hidden" data-modal>
       <div class="modal modal_window">
         <button type="" class="button_modal" data-modal-close>x</button>
         <h3 class="modal_title">Вход</h3>
         <p class="modal_text">Введите свой логин и пароль</p>
         <form class="form_modal">
           <div class="input">
-          <!-- <label class=""></label> -->
+          <label class=""></label>
             <!-- <div class=""> -->
             <input
               type="tel email"
@@ -231,7 +229,7 @@
           </div>
 
             <div class="input">
-          <!-- <label class=""></label> -->
+          <label class=""></label>
             <!-- <div class=""> -->
             <input
               type="password"
@@ -242,9 +240,31 @@
           <!-- </div> -->
           </div>
     <p class="forgot-password">Забыли пароль?</p>
-    <button class="entrance"><a class="entrance_link" href="#index.html ">Войти</a></button>
-     <button class="Create_account" type="button"><a class="create_link" href="#openModal">Создать аккаунт</a>
-</button>
+   <button type="submit"><a class="entrance entrance_link" href="#index.html "></a>Войти</button>
+     <a class="Create_account create_link" href="#openModal">Создать аккаунт</a>
+
+</div>
+
+ <div id="openModal" class="modal2">
+  <!-- <div class="modal-dialog">
+    <div class="modal-content"> -->
+      <div class="modal-header">
+        <h3 class="modal_title">Регистрация</h3>
+         <p class="modal_text_title">Введите свои данные и создайте аккаунт</p>
+        <!-- <a href="#close" data-modal-close title="Close" class="close">×</a> -->
+      </div>
+      <div class="modal-body">    
+         <form class="form_modal">
+          <div class="input_modal_form">
+          <label>
+          <input>
+        </label></div>
+
+
+         <button type="submit" class="link_wrap"><a class="create_link" href="index.html"></a>Создать аккаунт</button> 
+      </div>
+    <!-- </div>
+  </div> -->
 </div>
 
     <script src="./js/script.js"></script>
