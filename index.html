@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,14 +21,17 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
     <header class="header">
       
       <section class="section_main">
-        <div class="section_main_input"><button id="myBtn" data-modal-open type="button" class="input_button">
-         <a class="header_input ul" href="">Вход</a></button>
-         <button id="myBtn">open</button>
+        <div class="section_main_input">
+          <a data-modal-open class="input_button">Вход</a>
       <svg class="icon_svg_ua" width="20" height="14">
         <use href="./img/icons.svg#icon-Flag_of_Ukraine"></use>
         </svg>
@@ -36,7 +39,7 @@
          <div class="header_menu">
         <ul class="topmenu ul">
            <li class="list_item"><a class="menu_link" href="index.html" rel="">Главная</a></li>
-           <li class="list_item"><a class="menu_link" href="news.html" rel="">Новости</a></button><div class="dropdown_content"></li>
+           <li class="list_item"><a class="menu_link" href="news.html" rel="">Новости</a></li>
            <li class="list_item"><a class="menu_link" href="archives.html" rel="">Архивы</a></li>
            <li class="list_item_menu"><a class="menu_link" href="" rel="">Авторам</a>
             <ul class="submenu">
@@ -209,63 +212,64 @@
                 </div>
     </div>
     </footer>
-<div>
-        <div  id="myModal" class="backdrop is-hidden" data-modal>
-      <div class="modal modal_window">
-        <button type="" class="button_modal" data-modal-close>x</button>
+
+ <div class="backdrop" data-modal>
+  <div class="modall">
+        <button type="button" class="button_modal" data-modal-close>x</button>
         <h3 class="modal_title">Вход</h3>
         <p class="modal_text">Введите свой логин и пароль</p>
         <form class="form_modal">
-          <div class="input">
-          <label class=""></label>
-            <!-- <div class=""> -->
+          <label class="input">
             <input
-              type="tel email"
+              type="email"
               class="form"
-              name="user-name"
+              name="user-email"
               placeholder="Логин"
-              required="">
-          <!-- </div> -->
-          </div>
+              required>
+          </label>
 
-            <div class="input">
-          <label class=""></label>
-            <!-- <div class=""> -->
+          <label class="input">
             <input
               type="password"
               class="form"
               name="password"
               placeholder="Пароль"
               required="">
-          <!-- </div> -->
-          </div>
+   </label>
+       
+          
     <p class="forgot-password">Забыли пароль?</p>
-   <button type="submit"><a class="entrance entrance_link" href="#index.html "></a>Войти</button>
-     <a class="Create_account create_link" href="#openModal">Создать аккаунт</a>
-
+   <button type="submit">Войти</button>
+     <a class="Create_account create_link" href="MyModal">Создать аккаунт</a>
+     </form>    
+    </div>
 </div>
 
- <div id="openModal" class="modal2">
-  <!-- <div class="modal-dialog">
-    <div class="modal-content"> -->
+
+
+ <!-- <div id="openModal" class="modal2">
+  <div class="modal-dialog">
+    <div class="modal-content">
       <div class="modal-header">
         <h3 class="modal_title">Регистрация</h3>
          <p class="modal_text_title">Введите свои данные и создайте аккаунт</p>
-        <!-- <a href="#close" data-modal-close title="Close" class="close">×</a> -->
+        <a href="close" data-modal-close title="Close" class="close">×</a>
       </div>
       <div class="modal-body">    
-         <form class="form_modal">
-          <div class="input_modal_form">
-          <label>
-          <input>
-        </label></div>
-
-
+              <form class="form_modal">
+                <div class="input_modal_form"> 
+                    <label>
+                      <input >
+                    </label>
+                 </div>
+               </form>
          <button type="submit" class="link_wrap"><a class="create_link" href="index.html"></a>Создать аккаунт</button> 
       </div>
-    <!-- </div>
-  </div> -->
-</div>
+    </div>
+  </div>
+</div> -->
+
+
 
     <script src="./js/script.js"></script>
 </body>

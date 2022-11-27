@@ -5,44 +5,45 @@
     --color-milk-: #FFFFFF;
 }
 .is-hidden {
-    opacity: 0;
+    /* opacity: 0; */
     visibility: hidden;
     pointer-events: none;
+
+}
+.no-scroll{
+    overflow: hidden;
 }
 /*    //////////////////   */
 
  .backdrop {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 
-    position: fixed;
-
     background-color: rgba(0, 0, 0, 0.2);
-    opacity: 0;
-    visibility: visible;
+    /* opacity: 1;
+    visibility: visible; */
+    
 }  
-  /* .backdrop .is-hidden {
 
-    opacity: 0.6;
-    pointer-events: none;
-}  */
-.modal {
+.modall {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: transform 250ms linear;
     width: 528px;
-    height: 581px;
-    background-color: #F5F5F5;
+    min-height: 581px;
+    background-color: #f4f1f1;
     padding: 40px;
     border-radius: 4px;
-    opacity: 0;
+    /* opacity: 1; */
+  
 
 }
-.modal2{
+/* .modal2{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -56,19 +57,17 @@
     visibility: visible;
     opacity: 0;
 
-}
+} */
 .modal-header{
     width: 300px;
 
 }
-.modal_window {
-    position: relative;
-    
-}
+
 .button_modal {
     position: absolute;
     top: 8px;
     right: 8px;
+   
 
     width: 30px;
     height: 30px;
@@ -83,7 +82,7 @@
     width: 11px;
     height: 11px;
     top: 60px;
-    display: inline-block;
+    /* display: inline-block; */
     margin-top: 5px;
     stroke-width: 0;
 
@@ -153,29 +152,27 @@
 .form_modal{
     width: 300px;
     height: 40px;
-    background: #E5E5E5;
     border: none;
+    margin-left: auto;
+        margin-right: auto;
 }
 .input{
   margin-bottom: 10px;
   
 }
-.form{
+.form {
     width: 300px;
     height: 40px;
     background: #E5E5E5;
     border:none;
     margin: auto;
+    outline: #d0d0d0;
 
 }
 .form::placeholder{
     padding-left: 10px;
 }
-.form_modal {
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .forgot-password{
     font-family: 'Montserrat';
     font-style: normal;
@@ -233,6 +230,7 @@ margin-right: 180px;
     /* margin-right: 110px;  */
     color: var(--color-grey-green);
    margin-top: 15px;
+    cursor: pointer;
 }
 .input_button {
     margin-right: 19px;
@@ -240,6 +238,7 @@ margin-right: 180px;
     background-color: transparent;
     /* padding: 9px; */
     margin-top: 14px;
+    cursor: pointer;
 
 }
 .header{
@@ -325,12 +324,12 @@ align-items: center;
  }
  .submenu {
      position: absolute;
-     z-index: 5;
+   
      min-width: 200px;
      background: transparent;
      list-style: none;
     
-     visibility: hidden;
+    visibility: hidden;
      opacity: 1;
      transform-origin: 0% 0%;
      transform: rotateX(-90deg);
@@ -518,7 +517,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
     /* position: absolute; */
     width: 25px;
     height: 25px;
-    margin: auto;
+    margin-bottom: 15px;
     fill: #4b484845;
 
 }
