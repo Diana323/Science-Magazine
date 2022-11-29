@@ -304,6 +304,16 @@ margin-right: 180px;
     width: 1920px;
     padding-top: 30px;
 }
+.header_create{
+    background-image: url(../img/bacgraund1S.jpg);
+    background-repeat: no-repeat;
+    width: max-content;
+    height: 100%;
+    height: 500px;
+    margin: auto;
+    width: 1920px;
+    padding-top: 30px;
+}
 .container{
     width:1170px;
    
@@ -879,9 +889,22 @@ h1,h2,h3,h4,h5,h6,p,ul {
 }
 
 .title_text_publ{
+  
     align-items: center;
     margin: auto;
     width: 1920px;
+}
+.wrap_frame{
+    width: 719px;
+    height: 461px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 149px;
+}
+.wrap_public{
+    width: 719px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .publication_text{
     width: 719px;
@@ -900,10 +923,11 @@ h1,h2,h3,h4,h5,h6,p,ul {
     font-weight: 400;
     font-size: 42px;
     line-height: 20px;
-    text-align: center;
+    text-align: start;
     margin-top: 80px;
     
     padding-bottom: 40px;
+    
 }
 .heading{
     width: 570px;
@@ -943,21 +967,15 @@ h1,h2,h3,h4,h5,h6,p,ul {
    
     margin: auto;
 }
-.article {
-    /* margin: auto; */
-}
 .wrap_article{
     width: 570px;
     margin-left: 600px;
-    
-  
 }
 .input_text{
     width: 175px;
     height: 30px;
     border: none;
     outline: none;
-    
     background-color: #EFEFEF;
 }
 
@@ -971,6 +989,13 @@ h1,h2,h3,h4,h5,h6,p,ul {
      border: none;
     outline: none;
 }
+.input_organiz{
+    background-color: #EFEFEF;
+    height: 30px;
+    width: 553px;
+    border: none;
+    outline: none;
+}
 .input_text_form:first-child {
     margin-left: 0;
 }
@@ -980,18 +1005,15 @@ h1,h2,h3,h4,h5,h6,p,ul {
     background-color: #EFEFEF;
     border: none;
     outline: none;
-
 }
 .input_coment:first-child {
     margin-left: 0;
 }
-
 .input_coments{
     width: 770px;
     height: 100px;
     background-color: #EFEFEF;
     border: none;
-    
 }
 .input_coments:first-child{
     margin-left: 0;
@@ -1000,12 +1022,9 @@ h1,h2,h3,h4,h5,h6,p,ul {
     font-weight: 400;
     font-size: 14px;
     line-height: 134.09%;
-    
     color: rgba(0, 0, 0, 0.4);
     margin-left: 10px;
     margin-top: 5px;
-
-
 }
 .input_margin{
     margin: 10px;
@@ -1019,10 +1038,8 @@ h1,h2,h3,h4,h5,h6,p,ul {
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
-   
     text-align: center;
     color: #386457;
-   
     margin-bottom: 180px;
     margin-top: 40px;
     border: 1.5px solid #386457;
@@ -1030,8 +1047,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
 }
 .send{
     font-size: 24px;
-    line-height: 134.09%;
-    /* or 32px */
+    line-height: 32px;
     color: #FFFFFF;
     width: 300px;
     height: 60px;
@@ -1040,15 +1056,46 @@ h1,h2,h3,h4,h5,h6,p,ul {
     margin-bottom: 180px;
     margin-top: 40px;
     border: none;
-    
+}
 
+.send_contact{
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    width: 300px;
+    height: 60px;
+    background: #386457;
+    border-radius: 1px;
+    margin-bottom: 180px;
+    margin-top: 40px;
+    border: none;
+    margin-left: 30%;
 }
 .form_pub{
     width: 770px;
     display: flex;
     justify-content: space-between;
 }
+.form_contact{
+    width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contacts_wrap_form{
 
+}
+.contact_flex{
+    display: flex;
+    justify-content: center; 
+}
+.maps_link{
+    width: 770px;
+    height: 510px;
+}
+.contact_us{
+    width: 270px;
+    height: 515px;
+}
 .wrapper_gallery{
     width: 1170px;
    
