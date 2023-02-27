@@ -221,9 +221,7 @@
 width: 20px;
 height: 14px;
 margin-right: 180px;
-
-
-
+margin-top: 4px;
 }
 .header_input {
     
@@ -237,8 +235,9 @@ margin-right: 180px;
     border: none;
     background-color: transparent;
     /* padding: 9px; */
-    margin-top: 14px;
+    /* margin-top: 14px; */
     cursor: pointer;
+    text-decoration: none;
 
 }
 .header{
@@ -248,6 +247,7 @@ margin-right: 180px;
 .section_main_input{
     display: flex;
     justify-content: flex-end;
+    align-self: center;
     margin-top: 20px;
     margin-right: 20px;
 }
@@ -313,6 +313,13 @@ margin-right: 180px;
     margin: auto;
     width: 1920px;
     padding-top: 30px;
+}
+.header_search{
+    background-color: #386457;
+    width: 1920px;
+   
+    margin: auto;
+    height: 110px;
 }
 .container{
     width:1170px;
@@ -709,14 +716,16 @@ h1,h2,h3,h4,h5,h6,p,ul {
     width: 330px;
     align-items: center;
     margin-right: 70px;
+    display: flex;
+    flex-direction: column;
 
 }
 .Our_team:last-child{
     margin-right: 0;
 }
 .img_team{
-   margin-left: auto;
-   margin-right: auto;
+   /* margin-left: auto;
+   margin-right: auto; */
 
 }
 .Job_title{
