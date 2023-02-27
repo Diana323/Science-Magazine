@@ -360,6 +360,7 @@ align-items: center;
      transform-origin: 0% 0%;
      transform: rotateX(-90deg);
      transition: .3s linear;
+     padding: 0;
  }
  .list_item_menu:hover .submenu{
     transform: rotateX(0deg);
@@ -374,6 +375,9 @@ align-items: center;
     margin-right: 50px;
     display: block;
     transition: .3s linear;
+}
+.menu_link:hover{
+    color: #3a854e ;
 }
 .list_item_menu{
     float: left;
@@ -394,9 +398,7 @@ align-items: center;
     color: #386457;
     
 }
-..menu_link:hover{
-                                                                                                
-}
+
 .menu_links{
     text-decoration: none;
         font-family: 'Merriweather';
@@ -453,6 +455,9 @@ align-items: center;
     text-decoration: none;
     display: block;
     text-align: start;
+}
+.dropdown_link:hover{
+    color: #3a854e;
 }
 .dropdown_links{
     color: #FFFFFF;
