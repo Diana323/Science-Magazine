@@ -72,36 +72,60 @@
        <main>
         <section class="section_search">
           <div class="container_search">
-            <div class="summary"><details class="">
-            <summary class="">Категории</summary>
-            <ul class="summary_item">
-              <li class="summary_list"><a class="summary_link" href="">1111222233333</a></li>
-              <li class="summary_list"><a class="summary_link" href="">1111222233333</a></li>
-              <li class="summary_list"><a class="summary_link" href="">1111222233333</a></li>
-              <li class="summary_list"><a class="summary_link" href="">1111222233333</a></li>
-              <li class="summary_list"><a class="summary_link" href="">1111222233333</a></li>
-            </ul>
-          </details>
+            <div class="search_wrap_item">
+            <select name="select" class="select_search">jjjjjj
+              <option value="1">Категории</option>
+              <option value="2">Категории</option>
+              <option value="3">Категории</option>
+              <option value="4">Категории</option>
+
+            </select>
         </div>
-        <div>
-         <input type="tel" name="text" class="input_block_search"
+        <div class="">
+         <input type="text" name="text" class="input_block_search"
          placeholder="   Поиск">
         </div>
           </div>
           <div class="container_search_wrap">
-             <ul class="ul search_wrap_item">
-              <li class="search_wrap_list">Сортировать по:</li>
-              <li class="search_wrap_list">Название</li>
-              <li class="search_wrap_list">Дата</li>
-              <li class="search_wrap_list">Просмотры</li>
-              <li class="search_wrap_list">Скачивания</li>
-             </ul>
-             <select name="sear class="search_btn">
-              <option>
-              Расширенный поиск</option>
-            </select>
-          </div>
+            <ul class="ul search_wrap_item">
+             <li class="search_wrap_list">Сортировать по:</li>
+             <li class="search_wrap_list">Название</li>
+             <li class="search_wrap_list">Дата</li>
+             <li class="search_wrap_list">Просмотры</li>
+             <li class="search_wrap_list">Скачивания</li>
+            </ul>
+<select name="search" class="search_btn">
+  <option>Расширенный поиск</option>
+</select>
+         </div>
+         <div class="container_form">
+          <div class="wrap_form">
+             <form class="form_search">
+          <label><input class="input_form" required="" placeholder="  Название" type="text"></label>
+          <label><input class="input_form" required="" placeholder="  Автор" type="text"></label>
+          <label><input class="input_form input_padding" required="" placeholder="  Дисциплина" type="text"></label>
+          <label><input class="input_form" required="" placeholder="  Методология" type="text"></label>
+          <label><input class="input_form" required="" placeholder="  Тематическое покрытие" type="text"></label>
+         
+        </form>
+         </div>
+         <div class="wrap_form_comments">
+        <form >
+          <textarea class="form_anot" required="" placeholder="  Аннотация" type="text"></textarea>
+          <textarea class="form_coments" required="" placeholder="  Ключевые слова" type="text"></textarea>
+        </form>
+         </div>
+        </div>
 
+        <div class="wrap_form_data">
+          <div>
+         <form>
+          <label>dfghjkl<input required="" placeholder="" type="date"></label>
+          <label>dfgh<input required="" placeholder="" type="date"></label>
+         </form>
+        </div>
+        <div class="form_btn_wrap"><button class="form_btn" type="submit">send</button></div>
+        </div>
         </section>
 
        </main>
