@@ -135,7 +135,7 @@
         margin-bottom: 40px;
         margin-top: 5px;
 }
-.create_link{
+.create_link {
  
 }
 .link_wrap{
@@ -372,24 +372,58 @@ margin-top: 4px;
 .wrap_form_data {
     display: flex;
     margin: auto;
+    align-items: center;
     background-color: #F1F1F1;
     width: 970px;
 
+    padding-left: 75px;
+    padding-right: 75px;
+
 }
-.form_btn_wrap{
-  
+.input_data {
+    /* width: 120px; */
+    height: 30px;
+    background: #E7E7E7;
+    border-color: transparent;
+    border-radius: 1px;
+    margin: 15px;
+    padding-left: 5px;
+    color:rgb(118, 118, 118);
+    border: none;
+    outline: none;
+}
+.wrap_data {
+    margin-right: auto;
+}
+.wrap_form_data label{
+    color:rgb(118, 118, 118);
+}
+
+.form_btn{
+    width: 120px;
+    height: 30px;
+    background: #386457;
+border-radius: 1px;
+color: #FFFFFF;
+text-align: center;
 }
 .input_form{
   width: 275px;
   height: 30px;
 
-background: #E7E7E7;
-border-color: transparent;
-border-radius: 1px;
-margin-bottom: 39px;
+  background: #E7E7E7;
+  border-color: transparent;
+  border-radius: 1px;
+  margin-bottom: 39px;
+  border: none;
+  outline: none;
+
 }
 .input_padding{
-    margin-bottom: 80px;}
+    margin-bottom: 80px;
+    border: none;
+    outline: none;
+}
 .form_search{
     width: 300px;
     margin-right: 60px;
@@ -403,8 +437,11 @@ margin-bottom: 39px;
     background: #E7E7E7;
     border-color: transparent;
     border-radius: 1px;
-    
+    border: none;
+    outline: none;
 }
+    
+
 .form_coments{
     width: 470px;
     height: 100px;
@@ -412,6 +449,9 @@ margin-bottom: 39px;
     background: #E7E7E7;
     border-color: transparent;
     border-radius: 1px;
+    border: none;
+    outline: none;
+
 }
 
 .container_search_wrap{
@@ -1515,8 +1555,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
     padding-bottom: 15px;
     color: rgba(0, 0, 0, 0.7);
 }
-.stat_name{
-    width: ;
+.stat_name {
     margin-right: 400px;
 }
 .stat_views{
