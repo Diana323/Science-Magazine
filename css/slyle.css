@@ -482,6 +482,15 @@ text-align: center;
     color: #FFFFFF;
     
 }
+.search_title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+   
+    color:#386457;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
 .div_search {
     width: 970px;
     margin: auto;
