@@ -135,9 +135,7 @@
         margin-bottom: 40px;
         margin-top: 5px;
 }
-.create_link {
- 
-}
+
 .link_wrap{
     width: 300px;
     height: 40px;
@@ -483,6 +481,24 @@ text-align: center;
     /* margin-right: 30px; */
     color: #FFFFFF;
     
+}
+.div_search {
+    width: 970px;
+    margin: auto;
+}
+.list_search{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #386457;
+    margin-right: 40px;
+}
+.text_search {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
 }
 .section_main{
     background-image: url(../img/bacgraund1.jpg);
